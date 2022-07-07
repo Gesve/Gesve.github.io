@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>MR Desarrollo web</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>M<span>R</span></h1>
+                    <nav id="nav" class="">
+                        <ul id="link">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#pasatiempo" onclick="seleccionar(this)">PASATIEMPOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- ICONOS DEL MENU RESPONSIVO -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- ICONOS DE LAS REDES SOCIALES -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy Moises <span>Reyes</span> Desarrollador web</h2>
+                <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis nobis consectetur hic dolores? Consequatur aliquam architecto qui.</p>
+                <a href="#portfolio">Ir a portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-img">
+            <img src="asset/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola soy <span>Moises Reyes</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis recusandae, repellendus dignissimos numquam quis doloribus velit quibusdam neque accusantium.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION HOBBIES -->
+    <section id="pasatiempo">
+        <h3 class="titulo-seccion">Mis Pasatiempos</h3>
+        <div class="filas">
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios web</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-book-open-reader"></i></span>
+                <h4>Leer</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>Novelas</li>
+                    <li>Comic</li>
+                    <li>Mangas</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-dumbbell"></i></span>
+                <h4>Ejercicios</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>Pesas</li>
+                    <li>Futbol</li>
+                    <li>Calistenia</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+        </div>
+        <div class="filas">
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-headphones"></i></span>
+                <h4>Escuchar musica</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>LO-FI</li>
+                    <li>Romantica</li>
+                    <li>Electronica</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-motorcycle"></i></span>
+                <h4>Motores</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>Motos</li>
+                    <li>Autos</li>
+                    <li>Camiones</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-utensils"></i></span>
+                <h4>Cocinar</h4>
+                <hr>
+                <ul class="pasatiempos-tag">
+                    <li>Reposteria</li>
+                    <li>Panaderia</li>
+                    <li>Gastronomia Colombiana</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque, fuga distinctio dolores voluptatem blanditiis veritatis eius nam odio alias accusantium temporibus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="Js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Java</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="Ps" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PHP</p>
+                <span class="porcentaje">40%</span>
+            </div>
+            <div class="barra">
+                <div id="Wf"class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION ESTUDIOS -->
+    <section id="pasatiempo">
+        <h3 class="titulo-seccion">Mis Estudios</h3>
+        <div class="filas">
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-graduation-cap"></i></span>
+                <h4>Bachillerato</h4>
+                <hr>
+                <p>2010 - Institucion Educativa Tecnico Agropuecuario</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-graduation-cap"></i></i></span>
+                <h4>Programacion de paginas web</h4>
+                <hr>
+                <p>2022 - Alura<br>En Curso...</p>
+            </div>
+            <div class="pasatiempo">
+                <span class="icono"><i class="fa-solid fa-graduation-cap"></i></span>
+                <h4>Operador Maquinaria Pesada</h4>
+                <hr>
+                <p>2014 - CoreNorte</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="filas">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/ima.jpg" alt="">
+                <div class="info">
+                    <h4>Juego Ahorcado</h4>
+                    <p>Diseño Web</p>
+                    <a href="https://github.com/Gesve/gesve.github.io"><i class="fa-solid fa-code"></i></a>
+                    <a download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href="https://gesve.github.io/"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Encriptador de texto</h4>
+                    <p>Diseño Web</p>
+                    <a href="https://github.com/Gesve/encritador.github.io"><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href="https://gesve.github.io/encritador.github.io/"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Pagina Barberia</h4>
+                    <p>Diseño Web</p>
+                    <a href="https://github.com/EkkoArk/Barberia.github.io"><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href="https://ekkoark.github.io/Barberia.github.io/"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="filas">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="filas">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="asset/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Del Proyecto</h4>
+                    <p>Diseño Web</p>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
+                    <a  download href="asset/proyecto3.jpg"><i class="fa-solid fa-download"></i></a>
+                    <a href=""><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila-mitad">
+                    <input type="text" placeholder="Ingrese nombre completo" class="input-mitad">
+                    <input type="email" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
